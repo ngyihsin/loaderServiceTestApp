@@ -1,0 +1,40 @@
+  {
+  "name": "Loader service API Test",
+  "description": "Loader service APIs test",
+  "launch_path": "/index.html",
+  "type": "certified",
+  "default_locale": "en-US",
+  "locales": {
+    "en-US": {
+      "name": "LS test",
+      "description": "Loader service API testing"
+    },
+    "fr-CA": {
+      "name": "LS test",
+      "description": "Loader service API testing"
+    },
+    "es-US": {
+      "name": "LS test",
+      "description": "Loader service API testing"
+    },
+    "zh-TW": {
+      "name": "LS test",
+      "description": "Loader service API testing"
+    }
+  },
+  "icons": {
+    "56": "/style/icons/Default.png"
+  },
+  "chrome": {
+    "statusbar": "overlap"
+  },
+  "orientation": "default",
+  "activities": {},
+  "permissions": {
+    "secureelement-manage": {},
+    "device-storage:sdcard":{ "access": "readwrite" },
+    "settings":{ "access": "readwrite" },
+    "nfc":{},
+    "nfc-manager": {}
+  }
+}
